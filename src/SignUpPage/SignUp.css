@@ -1,0 +1,344 @@
+.white_BG {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 602px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+
+}
+
+.form_BG {
+  margin-top: 2%;
+  margin-left: 15%;
+  background-color: var(--color-darkslateblue-100);
+  width: 38%;
+  
+}
+
+.form_BG,
+.white_form {
+  position: absolute;
+  border-radius: var(--br-21xl);
+  height: 95%;
+}
+
+.white_form {
+
+  left: 82%;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+  width: 110%;
+  overflow: hidden;
+  color: var(--color-darkslateblue-100);
+  height: 100%;
+}
+
+.email_input_box,
+.user-name_input_box,
+.password_input_box,
+.confirm-password_input_box,
+.full-name_input_box {
+  position: absolute;
+  margin-left: 3%;
+  border-radius: var(--br-xl);
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  height: 8%;
+  overflow: hidden;
+  border: 3px solid rgb(17, 1, 61);
+
+}
+.email_input_box{
+  margin-top: 28%;
+}
+
+.user-name_input_box{
+  margin-top: 44%;
+}
+
+.password_input_box{
+  margin-top:59.5%;
+}
+
+.full-name_input_box{
+  margin-top: 13%;
+}
+
+.confirm-password_input_box{
+  margin-top: 75%;
+}
+
+.full-name
+{
+  position: absolute;
+  margin-top: 8%;
+  margin-left: -47%;
+  display: inline-block;
+  width: 25%;
+  color:rgb(17, 1, 61);
+  font-size:80%;
+  font-weight: 600;
+ 
+}
+
+.Email{
+  position: absolute;
+  margin-top: 23%;
+  margin-left: -50%;
+  color:rgb(17, 1, 61);
+  font-size:80%;
+  font-weight: 600;
+  font-family: sans-serif;
+  display: inline-block;
+  width: 25%;
+  
+}
+
+.password {
+  position: absolute;
+  margin-top: 54%;
+  margin-left: -47%;
+  display: inline-block;
+  width: 25%;
+  color:rgb(17, 1, 61);
+  font-size:80%;
+  font-weight: 600;
+}
+
+.confirm-password,
+.user-name {
+  color:rgb(17, 1, 61);
+  font-weight: 600;
+  position: absolute;
+  margin-top: 39%;
+  margin-left: -43%;
+  font-size:80%;
+}
+
+.confirm-password{
+ margin-top: 70%;
+}
+
+.sign-up_heading{
+  margin-left: -20%;
+  font-size:150%;
+  font-weight: 800;
+  width: 50%;
+  position: absolute;
+  display: inline-block;
+}
+
+
+
+.label1{
+  color: rgb(17, 1, 61);
+  font-size: larger;
+  font-weight: 700; 
+  justify-content: center; 
+}
+
+
+.signup_btn-wrapper_mentor {
+  position: absolute;
+  transform: translateY(1042%); /* Adjust the translateY value to move the button higher */
+  left: calc(72% - 112px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-100);
+  width: 35%;
+  height: 46px;
+  overflow: hidden;
+ 
+}
+.signup_btn_mentor:hover{
+  background-color: #dde1e6;
+  color: rgb(17, 1, 61);
+}
+
+.signup_btn_mentor{
+  position: relative;
+  padding: .2%;
+  background-color: #1c2260;
+  border: none;
+  font-size: 90%;
+  border-radius: var(--br-xl);
+  height: 100%;
+  width: 100%;
+}
+
+
+.signup_btn-wrapper_mentor:hover{
+  background-color: #dde1e6;
+  color: rgb(17, 1, 61);
+}
+
+.signup_btn-wrapper_mentor {
+  position: absolute;
+  transform: translateY(1042%); /* Adjust the translateY value to move the button higher */
+  left: calc(72% - 112px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-100);
+  width: 35%;
+  height: 46px;
+  overflow: hidden;
+
+}
+
+.signup_btn{
+  position: relative;
+  font-size: 90%;
+  border: none;
+  padding: .2%;
+  background-color: #1c2260;
+  border-radius: var(--br-xl);
+  height: 100%;
+  width: 100%;
+  }
+
+.signup_btn:hover {
+  background-color: #dde1e6;
+  color: rgb(17, 1, 61);
+}
+
+.signup_btn-wrapper {
+  position: absolute;
+  transform: translateY(1042%); /* Adjust the translateY value to move the button higher */
+
+  left: calc(31% - 112px);
+
+  left: calc(32% - 112px);
+
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-100);
+  width: 35%;
+  height: 46px;
+  overflow: hidden;
+}
+
+.next-level-e-learning-container1 {
+  position: absolute;
+  transform: translateY(10%); 
+  margin-left:20%;
+  font-weight: 800;
+  font-size: 180%;
+}
+
+.improve-your-self-container {
+  position: absolute;
+  transform: translateY(250%); 
+  left:20%;
+  font-weight: 800;
+  font-size: 180%;
+}
+
+.draw-1-icon1 {
+  position: relative;
+  margin-left: -13%;
+  width: 80%;
+  max-width: 100%;
+  height: 40%;
+  object-fit: cover;
+  margin-top: 25%; 
+  
+}
+
+
+.already-have-an1 {
+  position: absolute;
+  top:94%;
+  left: 30%;
+  font-size: var(--font-size-base);
+}
+
+.link{
+  color: rgb(17, 1, 61);
+}
+
+@media (max-width: 768px) {
+  .white_form {
+    width: 100%;
+    left: 0;
+  }
+  .email_input_box,
+  .user-name_input_box,
+  .password_input_box,
+  .confirm-password_input_box,
+  .full-name_input_box {
+    width: 90%; 
+    margin-left: 5%; 
+  }
+
+    .full-name,
+    .Email,
+    .password,
+    .confirm-password,
+    .user-name {
+      width: 40%; 
+      margin-left: -30%; 
+    }
+
+  
+  .signup_btn-wrapper_mentor,
+  .signup_btn-wrapper {
+    width: 50%; 
+    left: calc(25% - 112px); 
+  }
+  
+
+  .signup_btn_mentor,
+  .signup_btn {
+    width: 100%;
+  }
+
+  .next-level-e-learning-container1,
+  .improve-your-self-container {
+    margin-top: 5%;
+  }
+  .draw-1-icon1 {
+    width: 90%;
+    margin-left: -5%;
+    margin-top: 15%;
+  }
+}
+
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-inknut-antiqua: "Inknut Antiqua";
+  --font-jost: Jost;
+
+  /* font sizes */
+  --font-size-29xl: 48px;
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-mini: 15px;
+  --font-size-45xl: 64px;
+
+  /* Colors */
+  --color-darkslateblue-200: #1e2465;
+  --color-darkslateblue-100: #1c2260;
+  --color-white: #fff;
+  --color-gray: rgba(0, 0, 0, 0.2);
+
+  /* Gaps */
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-9xs: 4px;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-281xl: 300px;
+  --br-29xl: 48px;
+}

@@ -1,0 +1,455 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500;1,600&family=Poppins:ital,wght@1,200;1,400;1,800&display=swap');
+
+
+
+
+
+:root {
+  /* fonts */
+  --font-inter:  'Poppins';
+
+  /* font sizes */
+
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslateblue: #1c2260;
+  --color-gray: rgba(0, 0, 0, 0.2);
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+}
+.sign-ment {
+  position: relative;
+  background: linear-gradient(135deg, #fff, rgba(236, 221, 221, 0.413) 97.4%, #00eaff);
+  width: 850px;
+  height: 1400px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+  margin: 50px auto; /* Adjust the top and bottom margin as needed */
+  border: 2.5px solid rgb(3, 3, 106);
+  border-radius: 50px;
+}
+.sign-ment-child,
+.sign-ment-item {
+  position: absolute;
+  top: 1300px;
+  left: 0;
+  width: 1000px;
+  height: 100px;
+}
+
+
+.sign-ment-item {
+  top: 0;
+
+  width: 1290px;
+  height: 200px;
+}
+/*
+.next-level-e-learning-container {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--color-darkslateblue);
+  display: inline-block;
+  width: 850px;
+  height: 185px;
+}*/
+.next-level {
+  margin: 0;
+}
+
+.information{
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  font-size: 21px;
+  font-weight: 700;
+  --color-gray: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  width: 850px;
+  height: 185px;
+
+
+}
+
+
+
+.first {
+  position: absolute;
+  top: 600px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+
+  
+}
+.sign-ment-child23 {
+  position: absolute;
+  top: 630px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+.last-name {
+  position: absolute;
+  top: 600px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+}
+.sign-ment-child21 {
+  position: absolute;
+  top: 630px;
+  left: 500px;
+border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+  font-size: 13px;
+
+}
+
+
+
+.email-address {
+  position: absolute;
+  top: 700px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+}
+.sign-ment-child19 {
+  position: absolute;
+  top: 730px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+.phone {
+  position: absolute;
+  top: 700px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+  
+}.sign-ment-child17 {
+  position: absolute;
+  top: 730px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.dob {
+  position: absolute;
+  top: 800px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+ 
+}.sign-ment-child15 {
+  position: absolute;
+  top: 830px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+.address1 {
+  position: absolute;
+  top: 800px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+ 
+}
+.sign-ment-child13 {
+  position: absolute;
+  top: 830px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+
+
+.field-of-study {
+  position: absolute;
+  top: 900px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+ 
+}
+
+.sign-ment-child11 {
+  position: absolute;
+  top: 930px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.current-job-title {
+  position: absolute;
+  top: 900px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+ 
+}
+
+.sign-ment-child9 {
+  position: absolute;
+  top: 930px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.company {
+  position: absolute;
+  top: 1000px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+  
+}
+.sign-ment-child7 {
+  position: absolute;
+  top: 1030px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+  }
+
+
+
+.interests {
+  position: absolute;
+  top: 1100px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+ 
+}
+
+.sign-ment-child3 {
+  position: absolute;
+  top: 1130px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+
+
+.skill{
+  position: absolute;
+  top: 1000px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+}
+ 
+
+
+.sign-ment-child5 {
+  position: absolute;
+  top: 1030px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+
+.links {
+  position: absolute;
+  top: 1100px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+ 
+}
+
+
+
+.sign-ment-inner,
+.submit-wrapper {
+  position: absolute;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  overflow: hidden;
+  width: auto;
+
+
+}
+
+.sign-ment-child1 {
+  top: 1240px;
+  left: 550px;
+  border: 5px solid var(--color-gray);
+  width:300px;
+  height: 50px;;
+}
+
+.sign-ment-child1 {
+  position: absolute;
+  top: 1130px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width:300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+.center-btn{
+
+  position: absolute;
+  bottom: 0px;
+  top: 1230px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+
+
+}
+
+.center-btn button {
+  border-radius: 14px;
+
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-100);
+  
+}
+.center-btn button:hover {
+  background-color: #dde1e6;
+  color: rgb(17, 1, 61);
+  
+}
+
+
+@media (max-width: 268px) {
+  .sign-ment {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+  }
+
+  .next-level-e-learning-container {
+    left: 0%;
+    transform: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .heading {
+    width: 100%;
+    height: auto;
+  }
+
+  .sign-up_head {
+    left: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .first, .last-name, .email-address, .phone, .dob, .address1, .field-of-study  , .current-job-title   , .company,.skill,.interests,.links {
+    top: auto;
+    left: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .sign-ment-child23, .sign-ment-child21, .sign-ment-child19, .sign-ment-child17, .sign-ment-child15, .sign-ment-child13, .sign-ment-child11, .sign-ment-child9, .sign-ment-child7, .sign-ment-child5, .sign-ment-child3, .sign-ment-child1 {
+    top: auto;
+    left: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .center-button button {
+    font-size: 16px;
+  }
+
+  .profile-image-overlay {
+    width: 120px;
+    height: 120px;
+  }
+}

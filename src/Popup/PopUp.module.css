@@ -1,0 +1,375 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500;1,600&family=Poppins:ital,wght@1,200;1,400;1,800&display=swap');
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-archivo-black: sans-serif;;
+  
+    
+  
+
+  /* font sizes */
+  --font-size-smi-7: 12.7px;
+
+  /* Colors */
+  --color-darkslateblue: #1c2260;
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-4xs-5: 8.5px;
+
+  /* Border radiuses */
+  --br-mid: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+.popupChild {
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  left: auto;
+  background: linear-gradient(135deg, #1c2260, #123597);
+  height: 73.8px;
+  width: 555px;
+}
+.popupItem {
+  position: absolute;
+  top: 15.3px;
+  left: 23.8px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 45.8px;
+  height: 42.4px;
+}
+.chatWith {
+  margin: 0;
+}
+.chatWithNextContainer {
+  position: absolute;
+  top: 25.5px;
+  left: 46.7px;
+  display: inline-block;
+  width: 168px;
+  height: 42.4px;
+}
+.x {
+  position: relative;
+}
+.xWrapper {
+  top: 4.2px;
+  left: 488px;
+  width: 67px;
+  height: 64.5px;
+  flex-direction: column;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 27.16px;
+}
+.helloAgainTellMeWhatsOnWrapper,
+.wrapper,
+.xWrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8.486238479614258px;
+  font-family: sans-serif;
+}
+.wrapper {
+  top: 4.2px;
+  left: 445.5px;
+  width: 67px;
+  height: 64.5px;
+  flex-direction: column;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 54.31px;
+}
+.helloAgainTellMeWhatsOnWrapper {
+  top: 102.7px;
+  left: 15px;
+  border-radius: 33.94px;
+  border: 0.8px solid var(--color-darkslateblue);
+  flex-direction: row;
+  color: var(--color-darkslateblue);
+  font-family: sans-serif;
+}
+.robotSvgrepocomIcon {
+  position: absolute;
+  top: 382.7px;
+  left: 15.3px;
+  width: 50.9px;
+  height: 50.9px;
+  overflow: hidden;
+}
+.popupInner {
+  position: absolute;
+  top: 76.7px;
+  left: 547px;
+  border-radius: 16.97px;
+  background-color: #fafafa;
+  width: 8.5px;
+  height: 162.9px;
+  cursor: pointer;
+}
+.send1Icon {
+  position: absolute;
+  top: 383.6px;
+  left: 478.6px;
+  width: 57.7px;
+  height: 57.8px;
+  object-fit: cover;
+}
+.typeYourQuestion {
+  position: absolute;
+  top: 8.5px;
+  left: 125.2px;
+  font-family: sans-serif;
+}
+.typeYourQuestionWrapper {
+  position: absolute;
+  top: 399.7px;
+  left: 78.1px;
+  border-radius: 16.97px;
+  border: 0.8px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 400.6px;
+  height: 30.6px;
+  color: var(--color-darkslateblue);
+  font-family: sans-serif;
+}
+
+
+.popup {
+  background-color: #f5f5f5;
+  box-shadow: 11px 55.1px 137.8px rgba(0, 0, 0, 0.25);
+  width: 555px;
+  height: 446.4px;
+  overflow: hidden;
+  font-weight: 500;
+  text-align: center;
+  font-size: 12.73px;
+  color: var(--color-white);
+  font-family: var(--font-archivo-black);
+  position: absolute;
+  /* ... (rest of your existing styles) */
+  z-index: 999; /* Ensure it's above the background (998) */
+  font-family: sans-serif;
+}
+.react-resizable-handle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 0;
+  right: 0;
+  background: #4285f4;
+  cursor: se-resize;
+}
+
+.react-resizable-handle:hover {
+  background: #3c77d2;
+}
+
+  .button1 {
+    position: fixed;
+    bottom: 5%; /* Adjust as needed */
+    right: 5%; /* Adjust as needed */
+    margin: 0;
+    z-index: 999;
+  }
+
+      .img{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        margin: 0; /* You can adjust the margin as needed */
+        
+      }
+
+      @media screen and (min-width: 768px) {
+        
+
+.popupChild {
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  left: auto;
+  background: linear-gradient(135deg, #1c2260, #123597);
+  height: 73.8px;
+  width: 555px;
+}
+.popupItem {
+  position: absolute;
+  top: 15.3px;
+  left: 23.8px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 45.8px;
+  height: 42.4px;
+}
+.chatWith {
+  margin: 0;
+}
+.chatWithNextContainer {
+  position: absolute;
+  top: 25.5px;
+  left: 46.7px;
+  display: inline-block;
+  width: 168px;
+  height: 42.4px;
+}
+.x {
+  position: relative;
+}
+.xWrapper {
+  top: 4.2px;
+  left: 488px;
+  width: 67px;
+  height: 64.5px;
+  flex-direction: column;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 27.16px;
+}
+.helloAgainTellMeWhatsOnWrapper,
+.wrapper,
+.xWrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8.486238479614258px;
+}
+.wrapper {
+  top: 4.2px;
+  left: 445.5px;
+  width: 67px;
+  height: 64.5px;
+  flex-direction: column;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 54.31px;
+}
+.helloAgainTellMeWhatsOnWrapper {
+  top: 102.7px;
+  left: 15px;
+  border-radius: 33.94px;
+  border: 0.8px solid var(--color-darkslateblue);
+  flex-direction: row;
+  color: var(--color-darkslateblue);
+}
+.robotSvgrepocomIcon {
+  position: absolute;
+  top: 382.7px;
+  left: 15.3px;
+  width: 50.9px;
+  height: 50.9px;
+  overflow: hidden;
+}
+.popupInner {
+  position: absolute;
+  top: 76.7px;
+  left: 547px;
+  border-radius: 16.97px;
+  background-color: #fafafa;
+  width: 8.5px;
+  height: 162.9px;
+  cursor: pointer;
+}
+.send1Icon {
+  position: absolute;
+  top: 383.6px;
+  left: 478.6px;
+  width: 57.7px;
+  height: 57.8px;
+  object-fit: cover;
+}
+.typeYourQuestion {
+  position: absolute;
+  top: 8.5px;
+  left: 125.2px;
+}
+.typeYourQuestionWrapper {
+  position: absolute;
+  top: 399.7px;
+  left: 78.1px;
+  border-radius: 16.97px;
+  border: 0.8px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 400.6px;
+  height: 30.6px;
+  color: var(--color-darkslateblue);
+}
+.popup {
+  background-color: #f5f5f5;
+  box-shadow: 11px 55.1px 137.8px rgba(0, 0, 0, 0.25);
+  width: 555px;
+  height: 446.4px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 12.73px;
+  color: var(--color-white);
+  font-family: var(--font-archivo-black);
+  position: absolute;
+  /* ... (rest of your existing styles) */
+  z-index: 999; /* Ensure it's above the background (998) */
+}
+
+
+
+      .img{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        margin: 0; /* You can adjust the margin as needed */
+        
+      }
+        .button1 {
+          bottom: 0;
+          right: 0;
+        }
+      
+        .img {
+          width: 50%; /* Adjust as needed */
+          height: 50%; /* Adjust as needed */
+        }
+      }
+      
+        .background {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+          z-index: 1;
+        }
+        
+      .popupContainer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: 0; /* You can adjust the margin as needed */
+        z-index: 999; /* Ensure the button appears above other content */
+      }
+      
+      

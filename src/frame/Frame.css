@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500;1,600&family=Poppins:ital,wght@1,200;1,400;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500;1,600&family=Poppins:ital,wght@1,200;1,400;1,800&display=swap');
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: 'Poppins', sans-serif;
+  --font-archivo-black:'Poppins', sans-serif;
+  --font-jost: 'Poppins', sans-serif;
+  --font-inknut-antiqua: 'Poppins', sans-serif;
+  /* font sizes */
+  --font-size-29xl: 25px;
+  --font-size-13xl: 22px;
+  --font-size-5xl: 18px;
+  --font-size-21xl: 30px;
+  --font-size-xl: 15px;
+  --font-size-6xl-1: 20px;
+  --font-size-8xl-2: 21px;
+  --font-size-xl-9: 20.9px;
+  --font-size-mid-9: 17.9px;
+  --font-size-9xl-7: 28.7px;
+  --font-size-12xl-9: 31.9px;
+  --font-size-base: 16px;
+  --font-size-mini: 15px;
+  --font-size-45xl: 40px;
+
+  /* Colors */
+  --color-darkslateblue-200: #1e2465;
+  --color-darkslateblue-100: #1c2260;
+  --color-white: #fff;
+  --color-gray: rgba(0, 0, 0, 0.2);
+  --color-lavender: #d9dcf7;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-9xs-2: 3.2px;
+  --padding-9xs: 4px;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-xl: 20px;
+  --br-4xs: 9px;
+  --br-base: 16px;
+  --br-3xs: 10px;
+  --br-281xl: 300px;
+  --br-29xl: 48px;
+}
+
+
+.rectangle-div {
+  position: absolute;
+  width: 100%;
+  top: 63.6px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(135deg, #1c2260, #123597);
+  height: 76.4px;
+}
+.check-your-knowledge {
+  position: absolute;
+  top: 89.7px;
+  left: 1px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 1289.8px;
+  height: 126.6px;
+}
+.select-the-type {
+  position: absolute;
+  top: 207px;
+  left: 311px;
+  display: inline-block;
+  width: 631.8px;
+  height: 39.7px;
+}
+.frame-child12,
+.frame-child13 {
+  position: relative;
+  background-color: var(--color-darkslateblue-100);
+  border: 1.1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 227px;
+  height: 64.2px;
+}
+.frame-child13 {
+  background-color: var(--color-lavender);
+  height: 225.8px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 267px;
+  left: 84.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.frame-child14,
+.frame-child15 {
+  position: relative;
+  background-color: var(--color-darkslateblue-100);
+  border: 1.2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 237.2px;
+  height: 64.6px;
+}
+.frame-child15 {
+  background-color: var(--color-lavender);
+  height: 226.5px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 257px;
+  left: 935px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child16,
+.frame-child17 {
+  position: relative;
+  background-color: var(--color-darkslateblue-100);
+  border: 1.2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 232.6px;
+  height: 63.5px;
+}
+.frame-child17 {
+  background-color: var(--color-lavender);
+  height: 226.5px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 262px;
+  left: 504px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mcq2 {
+  top: 276.1px;
+  left: 77.3px;
+  font-size: 27.21px;
+  width: 229px;
+  height: 44.2px;
+}
+.mca,
+.mcq2,
+.scenario-based {
+  position: absolute;
+  color: var(--color-white);
+  display: inline-block;
+}
+.mca {
+  top: 273.6px;
+  left: 504px;
+  font-size: 27.91px;
+  width: 234.9px;
+  height: 45.3px;
+}
+.scenario-based {
+  top: 259px;
+  left: 948px;
+  font-size: var(--font-size-6xl-1);
+  width: 211.3px;
+  height: 40.8px;
+}
+.blank-line {
+  margin: 0;
+}
+.mca-question-sets,
+.you-have-to-container {
+  position: absolute;
+  top: 320.3px;
+  left: 75px;
+  font-size: 27.21px;
+  display: inline-block;
+  width: 229px;
+  height: 190.5px;
+}
+.mca-question-sets {
+  top: 333px;
+  left: 510px;
+  font-size: 26px;
+  width: 234.9px;
+  height: 195.3px;
+}
+.will-provide-scenarios {
+  position: absolute;
+  top: 339px;
+  left: 945px;
+  font-size: var(--font-size-6xl-1);
+  display: inline-block;
+  width: 211.3px;
+  height: 175.7px;
+}
+.navbar-parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 568px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 20.92px;
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-archivo-black);
+}

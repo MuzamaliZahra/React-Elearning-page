@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap");
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslateblue: #1c2260;
+
+
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+}
+
+
+.signup-ment {
+  position: relative;
+  background: linear-gradient(135deg, #fff, rgba(236, 221, 221, 0.413) 97.4%, #00eaff);
+  width: 850px;
+  height: 1500px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+  margin: 50px auto; /* Adjust the top and bottom margin as needed */
+  border: 2.5px solid rgb(3, 3, 106);
+  border-radius: 50px;
+}
+
+
+
+.signup-ment-child,
+.signup-ment-item {
+  position: absolute;
+  top: 1400px;
+  left: 0;
+  width: 1000px;
+  height: 100px;
+}
+
+
+.signup-ment-item {
+  top: 0;
+
+  width: 1290px;
+  height: 200px;
+}
+
+.next-level-e-learning-container {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  display: inline-block;
+  width: 850px;
+  height: 185px;
+}
+.next-level {
+  margin: 0;
+}
+
+.heading{
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  font-size: 44px;
+  font-weight: 700;
+  color: white;
+  display: inline-block;
+  width: 850px;
+  height: 185px;
+
+}
+
+.sign-up_head{
+  top: 0;
+  left: 158px;
+  font-size: var(--color-white);
+  font-weight: 800;
+  width: 249px;
+  height: 84px;
+  position: absolute;
+  display: inline-block;
+}
+
+
+.first-name {
+  position: absolute;
+  top: 600px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+
+}
+.signup-ment-child27 {
+  position: absolute;
+  top: 630px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+.lat-name {
+  position: absolute;
+  top: 600px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+}
+.signup-ment-child25 {
+  position: absolute;
+  top: 630px;
+  left: 500px;
+border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+  font-size: 13px;
+
+}
+
+
+
+.email {
+  position: absolute;
+  top: 700px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+}
+.signup-ment-child23 {
+  position: absolute;
+  top: 730px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+  
+}
+
+
+.phone-number {
+  position: absolute;
+  top: 700px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+}.signup-ment-child21 {
+  position: absolute;
+  top: 730px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.date-of-birth {
+  position: absolute;
+  top: 800px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+}.signup-ment-child19 {
+  position: absolute;
+  top: 830px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+.address {
+  position: absolute;
+  top: 800px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+}
+.signup-ment-child17 {
+  position: absolute;
+  top: 830px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+
+.company-name {
+  position: absolute;
+  top: 900px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+}
+.signup-ment-child15 {
+  position: absolute;
+  top: 930px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+
+}
+
+
+.position {
+  position: absolute;
+  top: 900px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.signup-ment-child13 {
+  position: absolute;
+  top: 930px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+.skills {
+  position: absolute;
+  top: 1000px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.signup-ment-child11 {
+  position: absolute;
+  top: 1030px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.industry {
+  position: absolute;
+  top: 1100px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.signup-ment-child7 {
+  position: absolute;
+  top: 1130px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+
+.years-of-experience {
+  position: absolute;
+  top: 1000px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+}
+.signup-ment-child9 {
+  position: absolute;
+  top: 1030px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+
+
+
+
+.mentoring-approach {
+  position: absolute;
+  top: 1100px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.signup-ment-child5 {
+  position: absolute;
+  top: 1130px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width:300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+.links-to-social {
+  position: absolute;
+  top: 1200px;
+  left: 520px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.achievements-and-accomplishmen {
+  position: absolute;
+  top: 1200px;
+  left: 60px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.signup-ment-inner,
+.submit-wrapper {
+  position: absolute;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  overflow: hidden;
+  width: auto;
+
+
+}
+
+.signup-ment-inner {
+  top: 1230px;
+  left: 500px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  width: 300px;
+  height: 40px;
+  font-size: 13px;
+}
+
+.signup-ment-child3 {
+  position: absolute;
+  top: 1230px;
+  left: 40px;
+  border: 3px solid rgb(17, 1, 61);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+
+
+.center-button {
+
+  position: absolute;
+  bottom: 0px;
+  top: 1330px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+
+
+}
+
+.center-button button {
+  border-radius: 14px;
+ 
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-100);
+  
+}
+
+
+
+.center-button button:hover {
+  background-color: #dde1e6;
+  color: rgb(17, 1, 61);
+}
+.profile-image-container {
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  top: 260px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+.profile-image-overlay {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  background-image: url("../Mentor/user.png");
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center center; /* Center the background image */
+}
+
+.profile-image-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Ensure the image inside is also round */
+}
+
+
+
+/* Hover effect */
+
+
+.custom-file-upload {
+  border: 5px solid #0a0808;
+  display: inline-block;
+  padding: 4px 8px; /* Adjusted padding */
+  cursor: pointer;
+  font-size: 14px; /* Adjusted font size */
+}
+
+.custom-file-upload input {
+  display: none;
+
+}
+.profile-image-overlay p {
+  font-size: 14px; /* Replace with your desired font size */
+}
+
+
+@media (max-width: 268px) {
+  .signup-ment {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+  }
+
+  .next-level-e-learning-container {
+    left: 0%;
+    transform: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .heading {
+    width: 100%;
+    height: auto;
+  }
+
+  .sign-up_head {
+    left: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .first-name, .lat-name, .email, .phone-number, .date-of-birth, .address, .company-name, .position, .skills, .industry {
+    top: auto;
+    left: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .signup-ment-child27, .signup-ment-child25, .signup-ment-child23, .signup-ment-child21, .signup-ment-child19, .signup-ment-child17, .signup-ment-child15, .signup-ment-child13, .signup-ment-child11, .signup-ment-child7, .signup-ment-child5, .signup-ment-child3 {
+    top: auto;
+    left: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .center-button button {
+    font-size: 16px;
+  }
+
+  .profile-image-overlay {
+    width: 120px;
+    height: 120px;
+  }
+}
